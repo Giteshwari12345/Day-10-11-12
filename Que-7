@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    
+<body>
+  <p id="1">I am Giteshwari Wadbudhe</p>
+  <p id="2">I am Nagpur</p>
+  <p id="3">I have completed my graduation in 2019</p>
+<script>
+var a= document.getElementsByTagName("p")
+for(let i=0;i<a.length;i++)
+{
+    a[i].style.background="blue"
+}
+var b=a.length
+document.write(b)
+
+</script>
+
+
+</body>
+</html>
